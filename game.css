@@ -1,0 +1,35 @@
+#score {
+  color: white;
+}
+
+
+body {
+  height: 100%;
+}
+.backdrop {
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 1200px;
+  background-color: black;
+}
+
+.game {
+  z-index: 1;
+  margin-left: 21%;
+}
+
+#my-canvas {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+#lost {
+  position: absolute;
+  margin-top: 10%;
+  z-index: 1;
+  color: red;
+  font-size: 200px;
+  font-weight: bold;
+}
